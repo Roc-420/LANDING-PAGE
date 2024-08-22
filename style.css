@@ -97,7 +97,8 @@ button {
 .section-two {
     display: flex;
     flex-direction: column;
-    margin-top: 34px;
+    margin-top: 65px;
+    margin-bottom: 155px;
 
 }
 
@@ -125,3 +126,28 @@ button {
     width: 250px;
     height: 250px;
 }
+/* starting section 3 of the landing page */
+
+.section-three{
+    display: flex;
+    background-color: #e5e7eb;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    display: flex;
+    margin: 42px;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 27px;
+}
+
+.cited {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
